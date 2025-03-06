@@ -1,0 +1,212 @@
+.titulo {
+    font-family: arial;
+    font-size: 80px;
+    padding: 25px; 
+    color: White;
+}
+
+.banner{
+	margin-left: 240px;
+	width: 850px;
+	text-align: center;
+	
+}
+
+.p-pi {
+    font-size: 25px;
+    color: White;
+    background-color:black; 
+    padding: 20px;
+}
+
+.descfilmes{
+	font-family: arial;
+	font-size: 55px;
+    color: WHITE;
+    background-color:black; 
+    padding: 20px;
+
+}
+footer.rodapepi {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+.questionario{
+	color: WHITE;
+	
+}
+
+footer.rodapeq {
+    background-color: #df2121;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+body, h1, p {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.p-filmes {
+    font-size: 80px;
+    color: White;
+    background-color:red; 
+    padding: 20px;
+}
+
+.galeria-filmes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Impede que as imagens quebrem para uma nova linha */
+    gap: 80px; /* Espaçamento entre as divs de filme */
+    margin-top: 20px;
+}
+
+.filme {
+    text-align: center;
+    width: 150px;
+    flex-shrink: 0; /* Garante que todas as divs mantenham a largura fixa */
+}
+
+.filme h4 {
+	color: navy;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
+
+.imagem-filme {
+    width: 200px; /* Tamanho inicial da imagem */
+    transition: transform 0.3s ease; /* Transição suave para o efeito */
+}
+
+.imagem-filme:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% ao passar o mouse */
+}
+
+footer.rodapefilme {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer.rodape {
+    background-color: R;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+.galeria-filmes-usa {
+    
+	text-align: center; /* Centraliza o conteúdo dentro da div */
+    margin-top: 20px;
+}
+
+.p-usa {
+	font-family: "Dejavu Sans";
+    font-size: 25px;
+    color: white;
+    background-color:red; 
+    padding: 20px;
+}
+
+
+
+footer.rodapeusa {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.videousa{
+
+	text-align: center; /* Centraliza o conteúdo dentro da div */
+    margin-top: 20px;	
+}
+
+.galeria-filmes-br {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; /* Impede que as imagens quebrem para uma nova linha */
+    gap: 20px; /* Espaçamento entre as divs de filme */
+    margin-top: 20px;
+}
+
+
+.FONT{
+	font-family: Arial;
+}
+
+.video-container {
+	
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+	margin-left: 200px;
+	margin-right: 30px
+}
+
+.video1 iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+}
+
+.detalhes-filme {
+    width: 100%;
+    text-align: center;
+    color: #f2f5f7;
+    margin-bottom: 20px;
+}
+
+.detalhes-filme h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.detalhes-filme p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.banner {
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 100%; /* Garante que a imagem se ajuste à largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+}

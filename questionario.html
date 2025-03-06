@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<div class= FONT>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indique Aqui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="black">
+
+    <!-- Tabela de navegação -->
+    <table style="width: 100%; solid #ccc; margin-top: 20px;">
+      <tr>
+   	    <td style="text-align: center; background-color: #df2121; color: white; padding: px;">
+                <a href="index.html" style="color: white; text-decoration: none; "><b>PÁGINA INICIAL</b></a>
+            </td>
+            <td style="text-align: center; background-color: #df2121; color: green; padding: 10px;">
+                <a href="br.html" style="color: white; text-decoration: none; "><b>FILMES</b></a>
+            </td>
+            <td style="text-align: center; background-color: #df2121; color: white; padding: 10px;">
+                <a href="usa.html" style="color: white; text-decoration: none;"><b>SÉRIES</b></a>
+			</td>	
+			
+			<td style="text-align: center; background-color: #df2121; color:white; padding: 8px;">
+             <a href="questionario.html" style="color: white; text-decoration: none;"><b>INDIQUE AQUI</b></a>
+            </td>
+        </tr>
+	
+    </table>
+
+    <h1 align="center" class="titulo">INDIQUE SEU FILME</h1>
+    
+    <hr color="White" size="4px" width="70%">
+    <hr color="red" size="4px" width="70%">
+    <hr color="white" size="4px" width="70%">
+
+    <!-- Questionário -->
+    <div class="questionario">
+        <h2>Questionário sobre Preferências de Filmes</h2>
+        
+        <form>
+            <!-- Pergunta 1: Texto simples -->
+            <label for="nome">1. Qual é o seu nome?</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            
+            <br><br>
+
+            <!-- Pergunta 2: Escolha múltipla (radio buttons) -->
+            <label>2. Qual gênero de filme você mais gosta?</label><br>
+            <input type="radio" id="acao" name="genero" value="acao">
+            <label for="acao">Ação</label><br>
+            <input type="radio" id="comedia" name="genero" value="comedia">
+            <label for="comedia">Comédia</label><br>
+            <input type="radio" id="drama" name="genero" value="drama">
+            <label for="drama">Drama</label><br>
+            <input type="radio" id="terror" name="genero" value="terror">
+            <label for="terror">Terror</label><br>
+            
+            <br>
+
+            <!-- Pergunta 3: Caixa de seleção múltipla (checkboxes) -->
+            <label>3. Quais são suas plataformas de streaming favoritas?</label><br>
+            <input type="checkbox" id="netflix" name="streaming" value="Netflix">
+            <label for="netflix">Netflix</label><br>
+            <input type="checkbox" id="prime" name="streaming" value="Amazon Prime">
+            <label for="prime">Amazon Prime</label><br>
+            <input type="checkbox" id="disney" name="streaming" value="Disney+">
+            <label for="disney">Disney+</label><br>
+            <input type="checkbox" id="hbo" name="streaming" value="HBO Max">
+            <label for="hbo">HBO Max</label><br>
+
+            <br>
+
+            <!-- Pergunta 4: Seleção em uma lista suspensa -->
+            <label for="frequencia">4. Com que frequência você assiste a filmes?</label><br>
+            <select id="frequencia" name="frequencia">
+                <option value="diariamente">Diariamente</option>
+                <option value="semanalmente">Semanalmente</option>
+                <option value="mensalmente">Mensalmente</option>
+                <option value="raramente">Raramente</option>
+            </select>
+
+            <br><br>
+
+            <!-- Pergunta 5: Área de texto -->
+            <label for="comentarios">5. Indique seu filme ou série preferido</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Compartilhe seus pensamentos..."></textarea>
+
+            <br><br>
+
+            <button type="submit">Enviar Respostas</button>
+        </form>
+    </div>
+	
+
+    <!-- Rodapé -->
+    <footer class="rodapeq">
+        <p>Portal Dos Filmes. Desenvolvido por Caio Bueno e Gianderson Fernando.</p>
+    </footer>
+</div>
+</body>
+</html>
